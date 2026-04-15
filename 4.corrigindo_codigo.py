@@ -61,9 +61,9 @@ print(f"Quantidade de numeros PAR: {quantidade_pares} e numeros IMPARES: {quanti
 print(f"Quantidade de numeros POSITIVOS: {quantidade_positivos} e numeros NEGATIVOS: {quantidade_negativos}")
 print(f"Quantidade de numeros inseridos: {cont}")
 print(f"O maior numero: {maior} e menor numero: {menor}")
-print(f"A media PAR: {media_par:.2f}")
-print(f"A media IMPARES: {media_impar:.2f}")
-print(f"A media GERAL: {media_geral:.2f}")
+print(f"A media PAR: {media_par}")
+print(f"A media IMPARES: {media_impar}")
+print(f"A media GERAL: {media_geral}")
 print(f"A ordem inversa: {invertido}")
 
 
