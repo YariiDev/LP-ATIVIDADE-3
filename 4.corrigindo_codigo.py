@@ -41,11 +41,11 @@ soma__impar = sum(vetor_impar)
 if quantidade_pares != 0:
     media_par = soma_par / quantidade_pares
 else:
-    media_par = "Nenhum numero PAR foi DIGITADO"
+    media_par = 0
 if quantidade_impares != 0:
     media_impar = soma__impar / quantidade_impares
 else:
-    media_impar = "Nenhum numero IMPAR foi DIGITADO"
+    media_impar = 0
 
 maior = max(numeros_vetor)
 menor = min(numeros_vetor)
@@ -61,9 +61,9 @@ print(f"Quantidade de numeros PAR: {quantidade_pares} e numeros IMPARES: {quanti
 print(f"Quantidade de numeros POSITIVOS: {quantidade_positivos} e numeros NEGATIVOS: {quantidade_negativos}")
 print(f"Quantidade de numeros inseridos: {cont}")
 print(f"O maior numero: {maior} e menor numero: {menor}")
-print(f"A media PAR: {media_par}")
-print(f"A media IMPARES: {media_impar}")
-print(f"A media GERAL: {media_geral}")
+print(f"A media PAR: {media_par:.2f}")
+print(f"A media IMPARES: {media_impar:.2f}")
+print(f"A media GERAL: {media_geral:.2f}")
 print(f"A ordem inversa: {invertido}")
 
 
